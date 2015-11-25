@@ -1,0 +1,22 @@
+{
+  "name": "webpack-multi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bundle-loader": "^0.5.4",
+    "loader-utils": "^0.2.12",
+    "webpack": "^1.12.9"
+  },
+  "devDependencies": {
+    "bundle-loader": "^0.5.4",
+    "loader-utils": "^0.2.12",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+      "build": "webpack --progress",
+      "watch": "webpack --watch --progress"
+  },
+  "author": "",
+  "license": "ISC"
+}
